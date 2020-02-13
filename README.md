@@ -6,6 +6,8 @@ here is to give the authentication key and its a difficult task in between code 
  REQUIREMENTS FOR INSTALLING........
  
  1) INSTALL ANACONDA
+    
+      https://docs.anaconda.com/anaconda/install/
  
  2) CONFIGURING THE PACKAGES
    * To install this package with conda run one of the following:
