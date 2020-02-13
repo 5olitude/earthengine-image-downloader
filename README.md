@@ -9,18 +9,26 @@ here is to give the authentication key and its a difficult task in between code 
  
  2) CONFIGURING THE PACKAGES
    * To install this package with conda run one of the following:
+   
        conda install -c conda-forge earthengine-api
+       
        conda install -c conda-forge/label/gcc7 earthengine-api
+       
        conda install -c conda-forge/label/cf201901 earthengine-api
    * Get Credentials
       Before getting credentials its better to try google earth engine is already authenticated so in your conda enviornment type
+      
              # earthengine authenticate
 3) Testing the API
+
    * Start a python interpreter from your conda by typing python
              # python 
    * Run the following Python lines one-by-one in python interpreter to print the metadata for a DEM dataset
+   
              # import ee
+             
              # ee.Initialize()
+             
              # print(ee.Image('USGS/SRTMGL1_003').getInfo())
  
  
