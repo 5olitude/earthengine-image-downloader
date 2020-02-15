@@ -55,7 +55,12 @@ here is to give the authentication key and its a difficult task in between code 
        
        * ast and math are preinstalled with python 
         
-       
+  # execute the code
+     
+       # python3 satellite.py
+       >>enter the location: (enter a location) 
+  
+  ignore the warnings and enjoy the downloads and find your file in path defined 
       
   
              
