@@ -38,6 +38,23 @@ here is to give the authentication key and its a difficult task in between code 
        EUREKA !!!! you have completed the level one :) smile
       
                 LETS MOVE TO LEVEL 2
+                
+ 1)    Now you require to download some python packages
+ 
+       * GEOPY
+       
+          Used to convet location into coordinates
+          
+            # pip install geopy
+             
+       * PARALLEL SYNC
+          
+          Used to download files and extract it into your computer
+            
+            # pip install parallel-sync
+                  
+        
+       
       
   
              
