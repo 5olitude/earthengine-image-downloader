@@ -44,7 +44,6 @@ def main(lon, lat):
     rectangle = ('[{:.4f},{:.4f},{:.4f},{:.4f}]'.format(wlon,slat,elon,nlat))
     lister=region.split('/')
     finallist=[ast.literal_eval(i) for i in lister] # to remove apostrophe
-    #final=[eval(item) for item in l]
     final = [list(value) for value in finallist] # final list
     print(final)
     import ee
