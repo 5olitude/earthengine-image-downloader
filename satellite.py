@@ -7,7 +7,7 @@ from parallel_sync import wget
 # Longitudes and latitudes are measured in degrees.
 # Earth is assumed to be perfectly spherical.
 from geopy.geocoders import Nominatim
-geolocator = Nominatim(user_agent="josephhermils98@gmail.com")
+geolocator = Nominatim(user_agent="email or host service ") #specify here
 locality=input("enter the location: ")
 location=geolocator.geocode(locality)
 lat=location.latitude 
@@ -67,5 +67,5 @@ def main(lon, lat):
 })
     print(path)
     urls = [path]
-    wget.download('/home/path/to/save', urls[0], filenames='x.zip', extract=True)
+    wget.download('/home/path/to/save', urls[0], filenames='x.zip', extract=True) #path to your location to save a particular image
 main(lon ,lat)
