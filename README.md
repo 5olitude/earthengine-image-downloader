@@ -52,7 +52,8 @@ here is to give the authentication key and its a difficult task in between code 
           Used to download files and extract it into your computer
             
               # pip install parallel-sync
-                  
+       
+       * ast and math are preinstalled with python 
         
        
       
