@@ -51,7 +51,7 @@ task_config = {
     'description': 'mysat'
 }
 
-// Exporting Images to our google drive usually the images are of type tiff format upto 10mb per file
+# Exporting Images to our google drive usually the images are of type tiff format upto 10mb per file
 
 task = ee.batch.Export.image.toDrive(image, **task_config)
 task.start()
